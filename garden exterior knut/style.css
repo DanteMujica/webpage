@@ -1,0 +1,295 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.knut-img {
+  text-align: center;
+}
+
+.top-logo {
+  width: 320px;
+  height: 120px;
+}
+
+.topbtn {
+  height: 100px;
+  text-align: center;
+}
+
+.headbtn {
+  height: 50px;
+  width: 170px;
+  background-color: #80fb5852;
+  font-family: fantasy;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.headbtn:hover {
+  background-color: greenyellow;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 4px -1px 20px 0px;
+          box-shadow: 4px -1px 20px 0px;
+  letter-spacing: 2px;
+}
+
+#img-slide {
+  position: relative;
+}
+
+#img-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.whatwedo {
+  position: relative;
+}
+
+.whatwedo .animetext {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: ヒラギノ明朝 ProN;
+  opacity: 0.7;
+  color: #f74e4e;
+  padding: 25px 0px;
+}
+
+.whatwedo .explicasion {
+  text-align: center;
+}
+
+.whatwedo .explicasion .waku {
+  display: inline-block;
+}
+
+.whatwedo .explicasion .hashi {
+  position: relative;
+  width: 200px;
+  height: auto;
+}
+
+.whatwedo .ejemplo {
+  text-align: center;
+  font-family: ヒラギノ明朝 ProN;
+  opacity: 0.7;
+  display: inline-block;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+
+#dogrun {
+  position: relative;
+  margin-top: 100px;
+}
+
+#dogrun .dogrun {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  opacity: 0.7;
+  color: #f74e4e;
+  padding: 25px 0px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#dogrun .dog {
+  display: inline-block;
+}
+
+#dogrun .aiken {
+  position: relative;
+  width: 290px;
+  height: auto;
+  border-radius: 7px;
+  margin-left: 100px;
+}
+
+#dogrun .runtext {
+  display: inline-block;
+  font-family: ヒラギノ明朝 ProN;
+  letter-spacing: 2px;
+  line-height: 35px;
+  opacity: 0.7;
+  padding: 0px 130px;
+}
+
+#sekoujirei {
+  position: relative;
+  text-align: center;
+  margin-top: 200px;
+}
+
+#sekoujirei .sekoujirei p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: ヒラギノ明朝 ProN;
+  opacity: 0.7;
+  color: #f74e4e;
+  padding: 25px 0px;
+}
+
+#sekoujirei .sekou1 {
+  padding-bottom: 120px;
+}
+
+#sekoujirei .sekou {
+  position: relative;
+}
+
+#sekoujirei .sekou img {
+  width: 19%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+#sekoujirei .sekou2 {
+  padding-bottom: 120px;
+}
+
+#sekoujirei .sekou img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+#access {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+#access .direccion {
+  display: inline-block;
+  text-align: center;
+  font-family: ヒラギノ明朝 ProN;
+  opacity: 0.7;
+  display: inline-block;
+  letter-spacing: 2px;
+  line-height: 35px;
+  width: 49%;
+}
+
+#access .map {
+  display: inline-block;
+  width: 50%;
+}
+
+#footer {
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+
+#footer .footer-logo {
+  display: inline-block;
+}
+
+#footer .footer-logo img {
+  width: 320px;
+  height: 130px;
+}
+
+#footer .snsbtn {
+  display: inline-block;
+}
+
+#footer .footerbtn {
+  padding: 10px 50px;
+  margin: 0px 120px;
+}
+
+#footer .footerbtn a {
+  color: white;
+}
+
+#footer .insta {
+  color: white;
+  border-radius: 7px;
+  position: relative;
+  /*相対配置*/
+  display: inline-block;
+  width: 160px;
+  /*幅*/
+  height: 40px;
+  /*高さ*/
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  /*グラデーション①*/
+  overflow: hidden;
+  /*はみ出た部分を隠す*/
+  border: none;
+}
+
+#footer .insta:before {
+  content: '';
+  position: absolute;
+  /*絶対配置*/
+  top: 23px;
+  /*ずらす*/
+  left: -18px;
+  /*ずらす*/
+  width: 60px;
+  /*グラデーションカバーの幅*/
+  height: 60px;
+  /*グラデーションカバーの高さ*/
+  background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+  /*グラデーション②*/
+}
+
+#footer .line {
+  background-color: #2fff3f;
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+
+/*問い合わせページの紹介文*/
+h1 {
+  font-family: serif;
+}
+
+/*formのcss外枠*/
+.required {
+  background-color: #f74e4e;
+  color: white;
+  border-radius: 7px;
+  padding: 3px;
+  font-family: serif;
+}
+
+.formtext {
+  padding: 50px 50px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin: 30px 120px;
+  border-radius: 10px;
+}
+
+select {
+  padding: 3px 5px;
+}
+
+/*fromの本文欄*/
+input.kinyuu {
+  padding: 8px 50px;
+  opacity: 0.4;
+}
+
+.choubun {
+  margin: 0px;
+  width: 888px;
+  height: 131px;
+  opacity: 0.4;
+}
+/*# sourceMappingURL=style.css.map */

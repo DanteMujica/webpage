@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>土岐市外構・問い合わせフォーム</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="knut-img">
+    <a
+      href="file:///Users/dantemujica/Desktop/%E5%85%A8%E3%81%A6%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/garden%20exterior%20knut/index.html#sekoujirei"><img
+        class="top-logo" src="/Users/dantemujica/Desktop/全てのファイル/garden exterior knut/image/クヌートロゴ.png"
+        alt="クヌートロゴ"></a>
+  </div>
+  <h1 id="texttoiawase">
+    <span>ご覧いただきありがとうございます。<br>
+      <a href="file:///Users/dantemujica/Desktop/%E5%85%A8%E3%81%A6%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/garden%20exterior%20knut/index.html#sekoujirei">施工事例</a>で気になったものがあれば下記より問い合せください。<br>
+        追って担当者よりご連絡させていただきます。お急ぎの方は電話でも問い合わせできますので気楽に
+        電話ください。<p>TEL:080-6560-5075</p></span>
+    <span>
+      <img src="image/mickey.child.jpg" alt="外構ミッキー">
+    </span>
+  </h1>
+  <!--フォームの作成-->
+  <div class="toiawase">
+    <form action="" method="POST">
+      <!--名前-->
+      <div class="formtext"><label for="rendou">お名前：<span class="required">必須</span></label>
+        <div><input class="kinyuu" id="rendou" type="name" name="yourname" placeholder="外構太郎"></div>
+      </div>
+      <!--アドレス-->
+      <div class="formtext"><label for="email">アドレス：<span class="required">必須</span></label>
+        <div><input class="kinyuu" id="email" type="email" name="youradress" placeholder="example@mail.com"></div>
+      </div>
+      <!--電話番号-->
+      <div class="formtext"><label for="number">電話番号：<span class="required">必須</span></label>
+        <div class="teltime">
+          <select name="tel">
+            <option value="gozenchuu">午前中</option>
+            <option value="gogo">午後</option>
+            <option value="jikanshiteinashi">時間指定なし</option>
+          </select>
+        </div>
+        <div><input class="kinyuu" id="number" type="number" name="tel"></div>
+      </div>
+      <!--ファイル選択-->
+      <div class="formtext"><input type="file"></div>
+      <!--問い合わせ-->
+      <div class="formtext"><label for="free">お問い合わせ内容：<span class="required">必須</span></label>
+        <div><textarea class="choubun" id="free" type="text" name="textfree"></textarea></div>
+      </div>
+    </form>
+  </div>
+  <script src="JQuery.js"></script>
+</body>
+
+</html>
