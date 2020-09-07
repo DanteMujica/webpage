@@ -132,6 +132,7 @@
   .sekou img:hover{
     transform:scale(1.2,1.2);
     transition:1s all;
+    overflow: hidden;
   }
 }
 //フッターのCSS
